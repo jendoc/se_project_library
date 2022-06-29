@@ -1,7 +1,7 @@
 .page {
   min-width: 1100px;
   max-width: 1600px;
-  align-items: center;
+  margin: 0 auto;
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -121,7 +121,8 @@
 
 .staff__cards {
   max-width: 760px;
-  margin: 68px auto;
+  margin: 68px auto 0 auto;
+  padding-left: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -207,6 +208,8 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 12px;
+  height: 24px;
+  width: 24px;
 }
 
 .event-info__icon_type_calendar {
@@ -382,6 +385,10 @@
   padding-bottom: 32px;
 }
 
+.about__paragraph:last-of-type {
+  padding-bottom: 0;
+}
+
 .about__circle {
   background-color: #2f80ed;
   width: 495px;
@@ -405,11 +412,11 @@
   display: flex;
 }
 
-.footer__column_content_hours {
+.footer__column_content-hours {
   margin-left: auto;
 }
 
-.footer__column_content_social {
+.footer__column_content-social {
   margin-left: 100px;
 }
 
@@ -457,4 +464,5 @@
 
 .footer__copyright {
   margin-top: 108px;
+  margin-bottom: 0;
 }
