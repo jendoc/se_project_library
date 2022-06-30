@@ -412,11 +412,11 @@
   display: flex;
 }
 
-.footer__column_content-hours {
+.footer__column_content_hours {
   margin-left: auto;
 }
 
-.footer__column_content-social {
+.footer__column_content_social {
   margin-left: 100px;
 }
 
